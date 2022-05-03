@@ -1,6 +1,7 @@
 * {
   font-family: 'Courier New', Courier, monospace;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -19,6 +20,14 @@ header li {
 
 header div:nth-child(2) ul li {
   padding: 0 12px 0 0;
+}
+
+#listbooks {
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid black;
+  width: 80%;
+  margin: auto;
 }
 
 #listbooks:nth-child(2n+1) {
@@ -87,14 +96,6 @@ header div:nth-child(2) ul li:last-child a {
   width: 80%;
   margin: auto auto 20px auto;
   text-align: right;
-}
-
-#listbooks {
-  list-style-type: none;
-  padding: 0;
-  border: 2px solid black;
-  width: 80%;
-  margin: auto;
 }
 
 h1 {
